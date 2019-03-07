@@ -1,1 +1,7 @@
 @import './base/base.css';
+
+@import "./component/header.css";
+@import "./component/logo.css";
+@import "./component/nav-list.css";
+
+@import './layout/cell.css';
