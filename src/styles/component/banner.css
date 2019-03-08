@@ -1,0 +1,12 @@
+.banner {
+    background-color: lightgray;
+}
+
+.banner .banner-image {
+    width: 60%;
+    height: 100%;
+}
+
+.banner .banner-text {
+    width: 30%;
+}

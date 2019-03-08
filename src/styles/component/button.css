@@ -1,0 +1,9 @@
+.btn {
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #696969;
+}
