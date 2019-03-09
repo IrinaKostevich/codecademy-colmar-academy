@@ -1,0 +1,22 @@
+.course-card {
+    width: 30%;
+    background-color: white;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+
+.course-card .course-card-details {
+    padding: 1rem;
+}
+
+.course-card .course-card-details > * {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-card .course-card-tag {
+    text-transform: uppercase;
+}

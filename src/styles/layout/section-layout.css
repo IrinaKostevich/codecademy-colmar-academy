@@ -1,6 +1,6 @@
 .l-section-layout {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }

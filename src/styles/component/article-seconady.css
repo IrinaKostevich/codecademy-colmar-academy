@@ -1,0 +1,28 @@
+.article-secondary {
+    display: flex;
+    align-items: center;
+}
+
+.article-secondary:hover {
+    background-color: #dcdcdc;
+}
+
+.article-secondary .article-secondary-image {
+    width: 35%;
+    height: 100%;
+    margin: 1rem;
+}
+
+.article-secondary .article-secondary-details {
+    width: 65%;
+}
+
+.article-secondary .article-secondary-details > * {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-secondary .article-secondary-link {
+    text-decoration: none;
+    color: lightskyblue;
+}
