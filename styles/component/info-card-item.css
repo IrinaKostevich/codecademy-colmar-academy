@@ -1,0 +1,23 @@
+.info-card-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-card-item:hover {
+    background-color: #dcdcdc;
+}
+
+.info-card-item .info-card-image {
+    width: 35%;
+    height: 100%;
+    margin: 1rem;
+}
+
+.info-card-item .info-card-details {
+    width: 65%;
+}
+
+.info-card-item .info-card-details > * {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
