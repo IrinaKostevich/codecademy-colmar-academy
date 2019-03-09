@@ -1,18 +1,17 @@
 @import './base/base.css';
 
-@import "./component/banner.css";
+@import "./component/article-primary.css";
+@import "./component/article-seconady.css";
 @import "./component/button.css";
-@import "./component/courses.css";
+@import "./component/course-card.css";
 @import "./component/header.css";
-@import "./component/info-card-item.css";
-@import "./component/info-main.css";
-@import "./component/link.css";
 @import "./component/logo.css";
 @import "./component/nav-list.css";
+@import "./component/section.css";
 
+@import './layout/article-collection.css';
 @import './layout/cell.css';
 @import './layout/content.css';
 @import './layout/courses-collection.css';
-@import './layout/info-card-collection.css';
 @import './layout/section-layout.css';
 @import './layout/well.css';
