@@ -3,9 +3,13 @@
 @import "./component/banner.css";
 @import "./component/button.css";
 @import "./component/header.css";
+@import "./component/info-card-item.css";
+@import "./component/info-main.css";
+@import "./component/link.css";
 @import "./component/logo.css";
 @import "./component/nav-list.css";
 
-@import './layout/banner-content.css';
 @import './layout/cell.css';
+@import './layout/info-card-list.css';
+@import './layout/section-layout.css';
 @import './layout/well.css';
