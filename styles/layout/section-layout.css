@@ -1,8 +1,8 @@
 .l-section-layout {
     display: flex;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .l-section-layout > *:not(:last-child) {
