@@ -1,0 +1,11 @@
+.section.section--gray {
+    background-color: #d3d3d3;
+}
+
+.section.section--dark-gray {
+    background-color: darkgray;
+}
+
+.section-header {
+    text-align: center;
+}
