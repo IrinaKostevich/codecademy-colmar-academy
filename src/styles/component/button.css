@@ -5,5 +5,9 @@
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-    background-color: #696969;
+    background-color: #4A4A4A;
+}
+
+.btn:hover {
+    background-color: #000000;
 }

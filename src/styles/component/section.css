@@ -1,9 +1,13 @@
 .section.section--gray {
-    background-color: #d3d3d3;
+    background-color: #eaebec;
 }
 
 .section.section--dark-gray {
-    background-color: darkgray;
+    background-color: #d8d8d8;
+}
+
+.section.section--light {
+    background-color: #f3f5f5;
 }
 
 .section-header {
