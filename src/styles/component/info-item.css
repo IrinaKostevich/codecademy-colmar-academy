@@ -1,32 +1,32 @@
-.article-secondary {
+.info-item {
     display: flex;
     align-items: center;
 }
 
-.article-secondary:hover {
+.info-item:hover {
     background-color: #d8d8d8;
 }
 
-.article-secondary .article-secondary-image {
+.info-item .info-item-image {
     width: 35%;
     height: 100%;
     margin: 1rem;
 }
 
-.article-secondary .article-secondary-details {
+.info-item .info-item-details {
     width: 65%;
 }
 
-.article-secondary .article-secondary-details > * {
+.info-item .info-item-details > * {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
-.article-secondary .article-secondary-link {
+.info-item .info-item-link {
     text-decoration: none;
     color: #1288E3;
 }
 
-.article-secondary .article-secondary-link:hover {
+.info-item .info-item-link:hover {
     text-decoration: underline;
 }
