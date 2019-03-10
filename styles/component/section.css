@@ -1,8 +1,8 @@
-.section.section--gray {
+.section.section--medium {
     background-color: #eaebec;
 }
 
-.section.section--dark-gray {
+.section.section--dark {
     background-color: #d8d8d8;
 }
 
@@ -10,6 +10,6 @@
     background-color: #f3f5f5;
 }
 
-.section-header {
+.section .section-header {
     text-align: center;
 }

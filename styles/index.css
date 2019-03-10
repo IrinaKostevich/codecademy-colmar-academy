@@ -1,12 +1,12 @@
 @import './base/base.css';
 
-@import "./component/article-primary.css";
-@import "./component/article-seconady.css";
 @import "./component/button.css";
 @import "./component/course-card.css";
 @import "./component/footer.css";
 @import "./component/header.css";
+@import "./component/info-item.css";
 @import "./component/logo.css";
+@import "./component/main-info.css";
 @import "./component/nav-list.css";
 @import "./component/section.css";
 
