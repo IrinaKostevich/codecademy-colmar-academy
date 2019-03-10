@@ -4,7 +4,7 @@
 }
 
 .article-secondary:hover {
-    background-color: #dcdcdc;
+    background-color: #d8d8d8;
 }
 
 .article-secondary .article-secondary-image {
@@ -24,5 +24,9 @@
 
 .article-secondary .article-secondary-link {
     text-decoration: none;
-    color: lightskyblue;
+    color: #1288E3;
+}
+
+.article-secondary .article-secondary-link:hover {
+    text-decoration: underline;
 }
