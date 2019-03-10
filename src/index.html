@@ -4,11 +4,13 @@
 <head>
     <title>Colmar Academy</title>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
     <link rel="stylesheet" href="./styles/vendor/reset.css" type="text/css">
     <link rel="stylesheet" href="./styles/index.css" type="text/css">
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header l-cell">
         <div class="logo">
             <img class="logo-image" src="./images/ic-logo.svg" alt="">
@@ -23,6 +25,8 @@
         </nav>
     </header>
     <main class="l-content">
+
+        <!-- Main banner -->
         <section class="section section--dark-gray">
             <div class="l-section-layout l-cell">
                 <div class="article-primary">
@@ -35,19 +39,23 @@
                 </div>
             </div>
         </section>
-        <section>
+
+        <!-- Information part -->
+        <section class="section section--light">
             <div class="l-section-layout l-cell">
                 <article class="article-primary">
                     <img class="article-primary-media" src="./images/information-main.jpg" alt="">
-                    <h2>It doesn't hurt to keep practicing</h2>
-                    <p class="article-primary-text">
-                        ”Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
-                        nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
-                        eget magna laoreet, efficitur dolor consequat, tristique ligula.”
-                    </p>
-                    <p>Emanuel, Sr Strategist at Hiring.com</p>
+                    <div class="article-primary-details">
+                        <h2>It doesn't hurt to keep practicing</h2>
+                        <p class="article-primary-text">
+                            ”Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
+                            nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
+                            eget magna laoreet, efficitur dolor consequat, tristique ligula.”
+                        </p>
+                        <p>Emanuel, Sr Strategist at Hiring.com</p>
+                    </div>
                 </article>
-                <div class="l-article-collection">
+                <div>
                     <div class="article-secondary">
                         <img class="article-secondary-image" src="./images/information-orientation.jpg" alt="">
                         <div class="article-secondary-details">
@@ -75,6 +83,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Courses -->
         <section class="section section--gray">
             <h2 class="section-header l-well">Start learning</h2>
             <div class="l-courses-collection">
@@ -128,12 +138,14 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        
+        <!-- Thesis part -->
+        <section class="section section--light">
             <h2 class="section-header l-well">Thesis exhibit</h2>
             <div class="l-section-layout l-cell">
                 <div class="article-primary">
                     <video class="article-primary-media" controls src="./videos/thesis.mp4"></video>
-                    <div>
+                    <div class="article-primary-details">
                         <h4>Reimaging urban</h4>
                         <p class="article-primary-text">
                             ”Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
@@ -142,7 +154,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="l-article-collection">
+                <div>
                     <div class="article-secondary">
                         <img class="article-secondary-image" src="./images/thesis-fisma.jpg" alt="">
                         <div class="article-secondary-details">
@@ -161,7 +173,19 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content l-cell">
+            <span>&copy;2016 Colmar Academy. All rights reserved.</span>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#">Terms</a></li>
+                    <li class="nav-list-item"><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>

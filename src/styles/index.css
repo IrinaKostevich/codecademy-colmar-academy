@@ -4,12 +4,12 @@
 @import "./component/article-seconady.css";
 @import "./component/button.css";
 @import "./component/course-card.css";
+@import "./component/footer.css";
 @import "./component/header.css";
 @import "./component/logo.css";
 @import "./component/nav-list.css";
 @import "./component/section.css";
 
-@import './layout/article-collection.css';
 @import './layout/cell.css';
 @import './layout/content.css';
 @import './layout/courses-collection.css';

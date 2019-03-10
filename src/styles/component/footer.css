@@ -1,0 +1,11 @@
+.footer {
+    border-top: 1px solid lightgray;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 4rem;
+    padding-top: 1rem;
+}
