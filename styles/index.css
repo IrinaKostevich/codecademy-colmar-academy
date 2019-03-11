@@ -1,5 +1,6 @@
 @import './base/base.css';
 
+@import "./component/banner-info.css";
 @import "./component/button.css";
 @import "./component/course-card.css";
 @import "./component/footer.css";
@@ -14,4 +15,3 @@
 @import './layout/content.css';
 @import './layout/courses-collection.css';
 @import './layout/section-layout.css';
-@import './layout/well.css';

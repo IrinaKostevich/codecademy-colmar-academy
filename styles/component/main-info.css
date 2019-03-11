@@ -6,7 +6,19 @@
     margin-top: 2rem;
 }
 
+.main-info .main-info-details .main-info-header {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
 .main-info .main-info-details .main-info-text {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.main-info .main-info-details .main-info-author {
+    font-size: 0.9rem;
 }
