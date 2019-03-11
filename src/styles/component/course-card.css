@@ -3,7 +3,7 @@
     background-color: white;
 }
 
-.course-card img {
+.course-card .course-card-image {
     width: 100%;
     height: auto;
 }
@@ -17,6 +17,22 @@
     margin-bottom: 0.5rem;
 }
 
+.course-card .course-card-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
 .course-card .course-card-tag {
     text-transform: uppercase;
+}
+
+.course-card .course-card-tag,
+.course-card .course-card-text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    opacity: 0.8;
 }

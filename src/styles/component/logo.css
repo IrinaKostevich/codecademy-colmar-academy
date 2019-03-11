@@ -5,10 +5,13 @@
 }
 
 .logo .logo-name {
+    font-size: 1.25rem;
     text-transform: uppercase;
     white-space: nowrap;
+    opacity: 0.6;
 }
 
 .logo .logo-name--bold {
-    font-weight: bold;
+    font-weight: 600;
+    color: #000000;
 }
