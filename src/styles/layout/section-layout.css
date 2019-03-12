@@ -18,3 +18,13 @@
     width: 40%;
 }
 
+@media only screen and (max-width: 600px) {
+    .l-section-layout {
+        flex-direction: column;
+    }
+
+    .l-section-layout > *:nth-child(n) {
+        width: 100%;
+        margin-right: 0;
+    }
+}

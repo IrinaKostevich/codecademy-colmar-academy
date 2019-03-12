@@ -13,3 +13,18 @@
     color: inherit;
     text-decoration: none;
 }
+
+.nav-list.nav-list--mobile {
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.nav-list.nav-list--mobile > * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-list.nav-list--mobile .nav-list-image {
+    height: 2rem;
+}

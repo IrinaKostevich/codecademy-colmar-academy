@@ -1,6 +1,8 @@
 .info-item {
     display: flex;
     align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .info-item:hover {
@@ -10,7 +12,12 @@
 .info-item .info-item-image {
     width: 35%;
     height: 100%;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.info-item .info-item-image--mobile {
+    display: none;
 }
 
 .info-item .info-item-details {
@@ -41,4 +48,30 @@
 
 .info-item .info-item-details .info-item-link:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    #thesis-list .info-item,
+    .info-item .info-item-image {
+        display: none;
+    }
+
+    .info-item {
+        flex-direction: column;
+    }
+
+    .info-item:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    .info-item .info-item-image--mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .info-item .info-item-details {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }

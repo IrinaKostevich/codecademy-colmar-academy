@@ -1,5 +1,6 @@
 .course-card {
     width: 30%;
+    min-width: 260px;
     background-color: white;
 }
 
@@ -35,4 +36,16 @@
     font-weight: 300;
     line-height: 1.5rem;
     opacity: 0.8;
+}
+
+.course-card-mobile {
+    padding: 1.5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+.course-card-mobile:active {
+    color: #ffffff;
+    background-color: #2d2c2c;
 }

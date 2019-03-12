@@ -1,12 +1,13 @@
-.section.section--medium {
-    background-color: #eaebec;
-}
-
-.section.section--dark {
+#banner.section {
     background-color: #d8d8d8;
 }
 
-.section.section--light {
+#courses-list.section {
+    background-color: #eaebec;
+}
+
+#information.section,
+#thesis-list.section {
     background-color: #f3f5f5;
 }
 
@@ -16,4 +17,11 @@
     font-size: 2.25rem;
     font-weight: 600;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .section .section-header {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
