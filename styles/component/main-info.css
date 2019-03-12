@@ -22,3 +22,10 @@
 .main-info .main-info-details .main-info-author {
     font-size: 0.9rem;
 }
+
+@media only screen and (max-width: 600px) {
+    #information .main-info,
+    #thesis-list .main-info .main-info-details  {
+        display: none;
+    }
+}

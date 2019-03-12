@@ -19,3 +19,17 @@
     font-weight: 600;
     line-height: 1.4;
 }
+
+@media only screen and (max-width: 768px) {
+    .banner-info {
+        padding-left: 0;
+    }
+
+    .banner-info > * {
+        width: 100%;
+    }
+
+    .banner-info .banner-info-header {
+        font-size: 2rem;
+    }
+}
