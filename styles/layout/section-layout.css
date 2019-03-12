@@ -3,6 +3,8 @@
     align-items: flex-start;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .l-section-layout.l-section-layout--center {
@@ -18,7 +20,7 @@
     width: 40%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     .l-section-layout {
         flex-direction: column;
     }

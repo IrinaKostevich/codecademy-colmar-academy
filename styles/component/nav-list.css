@@ -9,6 +9,10 @@
     font-size: inherit;
 }
 
+.nav-list .nav-list-item:hover {
+    text-decoration: underline;
+}
+
 .nav-list .nav-list-item a {
     color: inherit;
     text-decoration: none;

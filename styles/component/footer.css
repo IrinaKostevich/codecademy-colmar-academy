@@ -1,5 +1,5 @@
 .footer {
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #d3d3d3;
 }
 
 .footer-content {
@@ -7,12 +7,12 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 4rem;
-    padding: 1rem 0;
+    padding: 1rem;
     font-size: 0.8rem;
     font-weight: 300;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     .footer {
         border-top: none;
     }
