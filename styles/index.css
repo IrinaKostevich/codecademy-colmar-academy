@@ -6,6 +6,7 @@
 @import "./component/footer.css";
 @import "./component/header.css";
 @import "./component/info-item.css";
+@import "./component/link.css";
 @import "./component/logo.css";
 @import "./component/main-info.css";
 @import "./component/nav-list.css";
@@ -15,3 +16,4 @@
 @import './layout/content.css';
 @import './layout/courses-collection.css';
 @import './layout/section-layout.css';
+@import './layout/sticky.css';
