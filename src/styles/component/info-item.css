@@ -50,7 +50,7 @@
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     #thesis-list .info-item,
     .info-item .info-item-image {
         display: none;
