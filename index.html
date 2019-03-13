@@ -17,12 +17,12 @@
         <div class="header--desktop l-cell">
             <a class="link--reset" href="#">
                 <div class="logo">
-                    <img class="logo-image" src="./images/ic-logo.svg" alt="">
+                    <img class="logo-image" src="./images/ic-logo.svg" alt="Colmar Academy logo">
                     <span class="logo-name"><span class="logo-name--bold">Colmar</span>Academy</span>
                 </div>
             </a>
             <nav class="nav">
-                <ul class="nav-list">
+                <ul class="nav-list" role="presentation">
                     <li class="nav-list-item"><a href="#">On campus</a></li>
                     <li class="nav-list-item"><a href="#">Online</a></li>
                     <li class="nav-list-item"><a href="#">For companies</a></li>
@@ -32,25 +32,25 @@
         </div>
         <div class="header--mobile">
             <nav class="nav">
-                <ul class="nav-list nav-list--mobile">
+                <ul class="nav-list nav-list--mobile" role="presentation">
                     <li class="nav-list-item">
                         <a href="#">
-                            <img class="nav-list-image" src="./images/ic-logo.svg" alt="">
+                            <img class="nav-list-image" src="./images/ic-logo.svg" alt="Colmar Academy icon">
                         </a>
                     </li>
                     <li class="nav-list-item">
                         <a href="#">
-                            <img class="nav-list-image" src="./images/ic-on-campus.svg" alt="">
+                            <img class="nav-list-image" src="./images/ic-on-campus.svg" alt="Desk icon">
                         </a>
                     </li>
                     <li class="nav-list-item">
                         <a href="#">
-                            <img class="nav-list-image" src="./images/ic-online.svg" alt="">
+                            <img class="nav-list-image" src="./images/ic-online.svg" alt="Computer icon">
                         </a>
                     </li>
                     <li class="nav-list-item">
                         <a href="#">
-                            <img class="nav-list-image" src="./images/ic-login.svg" alt="">
+                            <img class="nav-list-image" src="./images/ic-login.svg" alt="User icon">
                         </a>
                     </li>
                 </ul>
@@ -85,39 +85,41 @@
                             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
                             eget magna laoreet, efficitur dolor consequat, tristique ligula.”
                         </p>
-                        <p class="main-info-author">Emanuel, Sr Strategist at Hiring.com</p>
+                        <p class="main-info-author" aria-label="The authour of the article">
+                            Emanuel, Sr Strategist at Hiring.com
+                        </p>
                     </div>
                 </div>
-                <div>
-                    <div class="info-item">
-                        <img class="info-item-image" src="./images/information-orientation.jpg" alt="">
-                        <img class="info-item-image--mobile" src="./images/information-orientation-mobile.jpg" alt="">
-                        <div class="info-item-details">
-                            <h4 class="info-item-header">Orientation date</h4>
-                            <p class="info-item-text">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                            <a class="info-item-link" href="#">Read more</a>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <img class="info-item-image" src="./images/information-campus.jpg" alt="">
-                        <img class="info-item-image--mobile" src="./images/information-campus-mobile.jpg" alt="">
-                        <div class="info-item-details">
-                            <h4 class="info-item-header">Our campus</h4>
-                            <p class="info-item-text">Find which campus is close by you</p>
-                            <a class="info-item-link" href="#">Read more</a>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <img class="info-item-image" src="./images/information-guest-lecture.jpg" alt="">
-                        <img class="info-item-image--mobile" src="./images/information-guest-lecture-mobile.jpg" alt="">
-                        <div class="info-item-details">
-                            <h4 class="info-item-header">Our guest lecture</h4>
-                            <p class="info-item-text">Join a keynote with Oliver Sack about music in medical treatment
-                            </p>
-                            <a class="info-item-link" href="#">Read more</a>
-                        </div>
+            <div>
+                <div class="info-item">
+                    <img class="info-item-image" src="./images/information-orientation.jpg" alt="">
+                    <img class="info-item-image--mobile" src="./images/information-orientation-mobile.jpg" alt="">
+                    <div class="info-item-details">
+                        <h4 class="info-item-header">Orientation date</h4>
+                        <p class="info-item-text">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a class="info-item-link" href="#">Read more</a>
                     </div>
                 </div>
+                <div class="info-item">
+                    <img class="info-item-image" src="./images/information-campus.jpg" alt="">
+                    <img class="info-item-image--mobile" src="./images/information-campus-mobile.jpg" alt="">
+                    <div class="info-item-details">
+                        <h4 class="info-item-header">Our campus</h4>
+                        <p class="info-item-text">Find which campus is close by you</p>
+                        <a class="info-item-link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <img class="info-item-image" src="./images/information-guest-lecture.jpg" alt="">
+                    <img class="info-item-image--mobile" src="./images/information-guest-lecture-mobile.jpg" alt="">
+                    <div class="info-item-details">
+                        <h4 class="info-item-header">Our guest lecture</h4>
+                        <p class="info-item-text">Join a keynote with Oliver Sack about music in medical treatment
+                        </p>
+                        <a class="info-item-link" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
 
@@ -126,7 +128,9 @@
             <h2 class="section-header">Start learning</h2>
             <div class="l-courses-collection l-cell">
                 <div class="course-card">
-                    <img class="course-card-image" src="./images/course-software.jpg" alt="">
+                    <div class="course-card-image-wrapper">
+                        <img class="course-card-image" src="./images/course-software.jpg" alt="">
+                    </div>
                     <div class="course-card-details">
                         <h4 class="course-card-header">Software engineering</h4>
                         <p class="course-card-tag">Courses</p>
@@ -134,7 +138,9 @@
                     </div>
                 </div>
                 <div class="course-card">
-                    <img class="course-card-image" src="./images/course-computer-art.jpg" alt="">
+                    <div class="course-card-image-wrapper">
+                        <img class="course-card-image" src="./images/course-computer-art.jpg" alt="">
+                    </div>
                     <div class="course-card-details">
                         <h4 class="course-card-header">Computer art</h4>
                         <p class="course-card-tag">Courses</p>
@@ -143,7 +149,9 @@
                     </div>
                 </div>
                 <div class="course-card">
-                    <img class="course-card-image" src="./images/course-design.jpg" alt="">
+                    <div class="course-card-image-wrapper">
+                        <img class="course-card-image" src="./images/course-design.jpg" alt="">
+                    </div>
                     <div class="course-card-details">
                         <h4 class="course-card-header">Design</h4>
                         <p class="course-card-tag">Courses</p>
@@ -151,7 +159,9 @@
                     </div>
                 </div>
                 <div class="course-card">
-                    <img class="course-card-image" src="./images/course-data.jpg" alt="">
+                    <div class="course-card-image-wrapper">
+                        <img class="course-card-image" src="./images/course-data.jpg" alt="">
+                    </div>
                     <div class="course-card-details">
                         <h4 class="course-card-header">Data</h4>
                         <p class="course-card-tag">Courses</p>
@@ -159,7 +169,9 @@
                     </div>
                 </div>
                 <div class="course-card">
-                    <img class="course-card-image" src="./images/course-business.jpg" alt="">
+                    <div class="course-card-image-wrapper">
+                        <img class="course-card-image" src="./images/course-business.jpg" alt="">
+                    </div>
                     <div class="course-card-details">
                         <h4 class="course-card-header">Business</h4>
                         <p class="course-card-tag">Courses</p>
@@ -167,7 +179,9 @@
                     </div>
                 </div>
                 <div class="course-card">
-                    <img class="course-card-image" src="./images/course-marketing.jpg" alt="">
+                    <div class="course-card-image-wrapper">
+                        <img class="course-card-image" src="./images/course-marketing.jpg" alt="">
+                    </div>
                     <div class="course-card-details">
                         <h4 class="course-card-header">Marketing</h4>
                         <p class="course-card-tag">Courses</p>
@@ -228,7 +242,7 @@
         <div class="footer-content l-cell">
             <span>&copy;2016 Colmar Academy. All rights reserved.</span>
             <nav class="nav">
-                <ul class="nav-list">
+                <ul class="nav-list" role="presentation">
                     <li class="nav-list-item"><a href="#">Terms</a></li>
                     <li class="nav-list-item"><a href="#">Privacy</a></li>
                 </ul>
