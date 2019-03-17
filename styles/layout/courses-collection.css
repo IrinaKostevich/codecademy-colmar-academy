@@ -14,21 +14,13 @@
     margin-bottom: 2rem;
 }
 
-.l-courses-collection--mobile {
-    display: none;
-}
-
 @media only screen and (max-width: 640px) {
-    .l-courses-collection {
-        display: none;
-    }
-
-    .l-courses-collection--mobile {
+    .l-courses-collection-list {
         display: block;
         margin: 1rem 1rem 2rem 1rem;
     }
 
-    .l-courses-collection--mobile > * {
+    .l-courses-collection-list > * {
         margin-bottom: 0.5rem;
     }
 }

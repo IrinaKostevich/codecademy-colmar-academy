@@ -1,13 +1,8 @@
-#banner.section {
-    background-color: #d8d8d8;
-}
-
-#courses-list.section {
+.section.section--dark {
     background-color: #eaebec;
 }
 
-#information.section,
-#thesis-list.section {
+.section.section--light {
     background-color: #f3f5f5;
 }
 

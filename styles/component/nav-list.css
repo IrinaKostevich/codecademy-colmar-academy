@@ -4,8 +4,8 @@
     list-style: none;
 }
 
-.nav-list .nav-list-item {
-    margin-left: 1rem;
+.nav-list .nav-list-item:not(:last-child){
+    margin-right: 1rem;
     font-size: inherit;
 }
 
@@ -18,17 +18,13 @@
     text-decoration: none;
 }
 
-.nav-list.nav-list--mobile {
-    justify-content: space-between;
-    align-items: center;
-    height: 4rem;
-}
-
-.nav-list.nav-list--mobile > * {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.nav-list.nav-list--mobile .nav-list-image {
+.nav-list .nav-list-image {
     height: 2rem;
+}   
+
+@media only screen and (max-width: 640px) {
+    .nav-list {
+        justify-content: space-between;
+        align-items: center;
+    }
 }

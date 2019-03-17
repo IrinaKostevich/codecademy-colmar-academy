@@ -14,25 +14,24 @@
 <body>
     <!-- Header -->
     <header class="header l-sticky">
-        <div class="header--desktop l-cell">
-            <a class="link--reset" href="./index.html">
-                <div class="logo">
+        <div class="header-content l-cell">
+            <div class="header-content-logo">
+                <a class="logo" href="./index.html">
                     <img class="logo-image" src="./images/ic-logo.svg" alt="Colmar Academy logo">
-                    <span class="logo-name"><span class="logo-name--bold">Colmar</span>Academy</span>
-                </div>
-            </a>
-            <nav class="nav">
-                <ul class="nav-list" role="presentation">
+                    <span class="logo-name">
+                        <span class="logo-name-primary">Colmar</span> Academy
+                    </span>
+                </a>
+            </div>
+            <nav class="header-content-nav">
+                <ul class="nav-list m-hidden" role="presentation">
                     <li class="nav-list-item"><a href="#">On campus</a></li>
                     <li class="nav-list-item"><a href="#">Online</a></li>
                     <li class="nav-list-item"><a href="#">For companies</a></li>
                     <li class="nav-list-item"><a href="#">Sign in</a></li>
                 </ul>
-            </nav>
-        </div>
-        <div class="header--mobile">
-            <nav class="nav">
-                <ul class="nav-list nav-list--mobile" role="presentation">
+      
+                <ul class="nav-list d-hidden" role="presentation">
                     <li class="nav-list-item">
                         <a href="#">
                             <img class="nav-list-image" src="./images/ic-logo.svg" alt="Colmar Academy icon">
@@ -54,32 +53,33 @@
                         </a>
                     </li>
                 </ul>
-            </nav>
+            </nav>  
         </div>
     </header>
+
     <main class="l-content">
 
-        <!-- Main banner -->
-        <section class="section" id="banner">
-            <div class="l-section-layout l-section-layout--center l-cell">
-                <div class="main-info">
-                    <img class="main-info-media" src="./images/banner.jpg" alt="">
+        <!-- Banner -->
+        <section class="banner" id="banner">
+            <div class="banner-content l-cell">
+                <div class="banner-media">
+                    <img class="banner-media-image" src="./images/banner.jpg" alt="">
                 </div>
                 <div class="banner-info">
                     <h1 class="banner-info-header">Learn something new everyday</h1>
                     <p class="banner-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a class="btn" href="#">Start here</a>
+                    <a class="banner-info-btn" href="#">Start here</a>
                 </div>
             </div>
         </section>
 
         <!-- Information part -->
-        <section class="section" id="information">
+        <section class="section section--light" id="information">
             <div class="l-section-layout l-cell">
                 <div class="main-info">
                     <img class="main-info-media" src="./images/information-main.jpg" alt="">
                     <div class="main-info-details">
-                        <h3 class="main-info-header">It doesn't hurt to keep practicing</h3>
+                        <h2 class="main-info-header">It doesn't hurt to keep practicing</h2>
                         <p class="main-info-text">
                             ”Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
                             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
@@ -90,44 +90,44 @@
                         </p>
                     </div>
                 </div>
-            <div>
-                <div class="info-item">
-                    <img class="info-item-image" src="./images/information-orientation.jpg" alt="">
-                    <img class="info-item-image--mobile" src="./images/information-orientation-mobile.jpg" alt="">
-                    <div class="info-item-details">
-                        <h4 class="info-item-header">Orientation date</h4>
-                        <p class="info-item-text">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <a class="info-item-link" href="#">Read more</a>
+                <div>
+                    <div class="info-item">
+                        <img class="info-item-image m-hidden" src="./images/information-orientation.jpg" alt="">
+                        <img class="info-item-image d-hidden" src="./images/information-orientation-mobile.jpg" alt="">
+                        <div class="info-item-details">
+                            <h3 class="info-item-header">Orientation date</h3>
+                            <p class="info-item-text">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a class="info-item-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <img class="info-item-image m-hidden" src="./images/information-campus.jpg" alt="">
+                        <img class="info-item-image d-hidden" src="./images/information-campus-mobile.jpg" alt="">
+                        <div class="info-item-details">
+                            <h3 class="info-item-header">Our campus</h3>
+                            <p class="info-item-text">Find which campus is close by you</p>
+                            <a class="info-item-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <img class="info-item-image m-hidden" src="./images/information-guest-lecture.jpg" alt="">
+                        <img class="info-item-image d-hidden" src="./images/information-guest-lecture-mobile.jpg" alt="">
+                        <div class="info-item-details">
+                            <h3 class="info-item-header">Our guest lecture</h3>
+                            <p class="info-item-text">Join a keynote with Oliver Sack about music in medical treatment
+                            </p>
+                            <a class="info-item-link" href="#">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="info-item">
-                    <img class="info-item-image" src="./images/information-campus.jpg" alt="">
-                    <img class="info-item-image--mobile" src="./images/information-campus-mobile.jpg" alt="">
-                    <div class="info-item-details">
-                        <h4 class="info-item-header">Our campus</h4>
-                        <p class="info-item-text">Find which campus is close by you</p>
-                        <a class="info-item-link" href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="info-item">
-                    <img class="info-item-image" src="./images/information-guest-lecture.jpg" alt="">
-                    <img class="info-item-image--mobile" src="./images/information-guest-lecture-mobile.jpg" alt="">
-                    <div class="info-item-details">
-                        <h4 class="info-item-header">Our guest lecture</h4>
-                        <p class="info-item-text">Join a keynote with Oliver Sack about music in medical treatment
-                        </p>
-                        <a class="info-item-link" href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
             </div>
         </section>
 
         <!-- Courses -->
-        <section class="section" id="courses-list">
+        <section class="section section--dark" id="courses-list">
             <h2 class="section-header">Start learning</h2>
-            <div class="l-courses-collection l-cell">
-                <div class="course-card">
+            <div class="l-courses-collection m-hidden l-cell">
+                <a class="course-card" href="#">
                     <div class="course-card-image-wrapper">
                         <img class="course-card-image" src="./images/course-software.jpg" alt="">
                     </div>
@@ -136,8 +136,8 @@
                         <p class="course-card-tag">Courses</p>
                         <p class="course-card-text">Web development, Mobile Development, iOT, APIs</p>
                     </div>
-                </div>
-                <div class="course-card">
+                </a>
+                <a class="course-card" href="#">
                     <div class="course-card-image-wrapper">
                         <img class="course-card-image" src="./images/course-computer-art.jpg" alt="">
                     </div>
@@ -147,8 +147,8 @@
                         <p class="course-card-text">Imaging & Design, Web Design, Motion Graphics & Visual Effects,
                             Computer Animation</p>
                     </div>
-                </div>
-                <div class="course-card">
+                </a>
+                <a class="course-card" href="#">
                     <div class="course-card-image-wrapper">
                         <img class="course-card-image" src="./images/course-design.jpg" alt="">
                     </div>
@@ -157,8 +157,8 @@
                         <p class="course-card-tag">Courses</p>
                         <p class="course-card-text">User Experience Design, User Research, Visual Design</p>
                     </div>
-                </div>
-                <div class="course-card">
+                </a>
+                <a class="course-card" href="#">
                     <div class="course-card-image-wrapper">
                         <img class="course-card-image" src="./images/course-data.jpg" alt="">
                     </div>
@@ -167,8 +167,8 @@
                         <p class="course-card-tag">Courses</p>
                         <p class="course-card-text">Data Science, Big Data, SQL, Data Vizualization</p>
                     </div>
-                </div>
-                <div class="course-card">
+                </a>
+                <a class="course-card" href="#">
                     <div class="course-card-image-wrapper">
                         <img class="course-card-image" src="./images/course-business.jpg" alt="">
                     </div>
@@ -177,8 +177,8 @@
                         <p class="course-card-tag">Courses</p>
                         <p class="course-card-text">Product Development, Business Development, Startup</p>
                     </div>
-                </div>
-                <div class="course-card">
+                </a>
+                <a class="course-card" href="#">
                     <div class="course-card-image-wrapper">
                         <img class="course-card-image" src="./images/course-marketing.jpg" alt="">
                     </div>
@@ -187,20 +187,20 @@
                         <p class="course-card-tag">Courses</p>
                         <p class="course-card-text">Analytics, Content Marketing, Mobile Marketing</p>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="l-courses-collection--mobile">
-                <div class="course-card-mobile">Software engineering</div>
-                <div class="course-card-mobile">Computer art</div>
-                <div class="course-card-mobile">Design</div>
-                <div class="course-card-mobile">Data</div>
-                <div class="course-card-mobile">Business</div>
-                <div class="course-card-mobile">Marketing</div>
+            <div class="l-courses-collection-list d-hidden">
+                <a class="course-card-list-item" href="#">Software engineering</a>
+                <a class="course-card-list-item" href="#">Computer art</a>
+                <a class="course-card-list-item" href="#">Design</a>
+                <a class="course-card-list-item" href="#">Data</a>
+                <a class="course-card-list-item" href="#">Business</a>
+                <a class="course-card-list-item" href="#">Marketing</a>
             </div>
         </section>
 
         <!-- Thesis part -->
-        <section class="section" id="thesis-list">
+        <section class="section section--light" id="thesis-list">
             <h2 class="section-header">Thesis exhibit</h2>
             <div class="l-section-layout l-cell">
                 <div class="main-info">
@@ -241,7 +241,7 @@
     <footer class="footer">
         <div class="footer-content l-cell">
             <span>&copy;2016 Colmar Academy. All rights reserved.</span>
-            <nav class="nav">
+            <nav class="footer-nav">
                 <ul class="nav-list" role="presentation">
                     <li class="nav-list-item"><a href="#">Terms</a></li>
                     <li class="nav-list-item"><a href="#">Privacy</a></li>

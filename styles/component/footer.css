@@ -2,7 +2,7 @@
     border-top: 1px solid #d3d3d3;
 }
 
-.footer-content {
+.footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -17,11 +17,11 @@
         border-top: none;
     }
 
-    .footer-content {
+    .footer .footer-content {
         height: auto;
     }
 
-    .footer .nav {
+    .footer .footer-nav {
         display: none;
     }
 }

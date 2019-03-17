@@ -16,10 +16,6 @@
     margin-right: 1rem;
 }
 
-.info-item .info-item-image--mobile {
-    display: none;
-}
-
 .info-item .info-item-details {
     width: 65%;
 }
@@ -50,9 +46,19 @@
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 640px) {
-    #thesis-list .info-item,
+@media only screen and (max-width: 768px) {
     .info-item .info-item-image {
+        display: none;
+    }
+
+    .info-item .info-item-details {
+        width: 100%;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #thesis-list .info-item {
         display: none;
     }
 
@@ -64,13 +70,12 @@
         margin-bottom: 2rem;
     }
 
-    .info-item .info-item-image--mobile {
+    .info-item .info-item-image {
         display: block;
         width: 100%;
     }
 
     .info-item .info-item-details {
-        width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
     }
