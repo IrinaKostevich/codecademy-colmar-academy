@@ -4,6 +4,8 @@
     overflow: hidden;
     background-color: white;
     border-radius: 0.75rem;
+    text-decoration: none;
+    color: inherit;
 }
 
 .course-card:hover {
@@ -55,14 +57,17 @@
     line-height: 1.5rem;
 }
 
-.course-card-mobile {
+.course-card-list-item {
+    display: block;
     padding: 1.5rem 1rem;
     font-size: 1.3rem;
     font-weight: 600;
+    text-decoration: none;
+    color: inherit;
     background-color: #d8d8d8;
 }
 
-.course-card-mobile:active {
+.course-card-list-item:active {
     color: #ffffff;
     background-color: #2d2c2c;
 }

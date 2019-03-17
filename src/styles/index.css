@@ -1,12 +1,11 @@
 @import './base/base.css';
+@import './base/utils.css';
 
-@import "./component/banner-info.css";
-@import "./component/button.css";
+@import "./component/banner.css";
 @import "./component/course-card.css";
 @import "./component/footer.css";
 @import "./component/header.css";
 @import "./component/info-item.css";
-@import "./component/link.css";
 @import "./component/logo.css";
 @import "./component/main-info.css";
 @import "./component/nav-list.css";
