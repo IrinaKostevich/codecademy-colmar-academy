@@ -1,6 +1,8 @@
+/* Base */
 @import './base/base.css';
 @import './base/utils.css';
 
+/* Components */
 @import "./component/banner.css";
 @import "./component/course-card.css";
 @import "./component/footer.css";
@@ -11,6 +13,7 @@
 @import "./component/nav-list.css";
 @import "./component/section.css";
 
+/* Layout */
 @import './layout/cell.css';
 @import './layout/content.css';
 @import './layout/courses-collection.css';
