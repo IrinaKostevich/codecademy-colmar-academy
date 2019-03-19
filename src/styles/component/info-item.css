@@ -57,6 +57,7 @@
     }
 }
 
+/* Media query for mobile view */
 @media only screen and (max-width: 640px) {
     #thesis-list .info-item {
         display: none;
